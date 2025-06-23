@@ -3,7 +3,7 @@
 AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-06382d8940e141231" # replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID="124355635734" # replace with your ZONE ID
+ZONE_ID="Z055853317ZUULRH6L095" # replace with your ZONE ID
 DOMAIN_NAME="somisettibhavya.life" # replace with your domain
 
 for instance in ${INSTANCES[@]}
